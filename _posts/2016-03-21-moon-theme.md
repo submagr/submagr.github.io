@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Moon Jekyll Theme"
+title:  "Under construction"
 date:   2016-04-06
-excerpt: "Minimal, one column Jekyll theme for your blog."
+excerpt: "The website is under construction"
 project: true
 tag:
 - jekyll 
