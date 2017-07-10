@@ -22,15 +22,14 @@
   padding: 0 30px;
   .avatar {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 180px;
     float: none;
   }
   .author_name {
     display: block;
-    color: #F36170;
+    color: black; 
     font-size: 1.75em;
-    text-transform: lowercase;
+    /* text-transform: lowercase; */ 
   }
   .author_job {
     display: block;
@@ -43,9 +42,10 @@
   .author_bio {
     font-size: 90%;
     display: block;
+    color: $secondary;
   }
   @include media-query($medium-screen) {
-    text-align: right;
+    /* text-align: right; */
     margin: 0 auto;
     padding: 0 0px 80px;
   }
@@ -60,10 +60,10 @@
       display: inline-block;
       margin-left: 1em;
       a.social-link-item {
-        color: $secondary;
+        color: $tartiary;
         &:hover,
         &:focus {
-          color: lighten($secondary, 14%);
+          color: lighten($tartiary, 10%);
         }
       }
     }
@@ -87,10 +87,10 @@
       margin-top: 1em;
       text-transform: lowercase;
       font-size: 85%;
-      color: $secondary;
+      color: $tartiary;
       &:hover,
       &:focus {
-        color: lighten($secondary, 14%);
+        color: lighten($tartiary, 10%);
       }
     }
   }

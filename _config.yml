@@ -6,7 +6,7 @@
 title: Shubham Agrawal 
 email: agshubh191@gmail.com
 description: My blog 
-url: # the base hostname & protocol for your site
+url: http://www.submagr.space 
 
 
 #
@@ -34,9 +34,9 @@ kramdown:
 #
 owner:
   name: Shubham Agrawal 
-  # avatar: avatar2.jpg 
+  avatar: avatar.jpeg 
   job: "Student at IIT Kanpur"
-  bio: "ML Enthusiast"
+  bio: "ML Enthusiast, Backend Web Developer"
   email: agshubh191@gmail.com
   disqus-shortname:
   twitter: #username
