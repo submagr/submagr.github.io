@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shubham&#39;s</title>
+    <link>https://submagr.github.io/</link>
+      <atom:link href="https://submagr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shubham&#39;s</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 07 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://submagr.github.io/img/icon-192.png</url>
+      <title>Shubham&#39;s</title>
+      <link>https://submagr.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://submagr.github.io/publication/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://submagr.github.io/publication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://submagr.github.io/post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://submagr.github.io/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://submagr.github.io/talk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://submagr.github.io/talk/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

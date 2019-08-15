@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Shubham&#39;s</title>
+    <link>https://submagr.github.io/tags/</link>
+      <atom:link href="https://submagr.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 07 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://submagr.github.io/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>https://submagr.github.io/tags/</link>
+    </image>
+    
+    <item>
+      <title>Geo-fencing</title>
+      <link>https://submagr.github.io/tags/geo-fencing/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://submagr.github.io/tags/geo-fencing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatial Data Mining</title>
+      <link>https://submagr.github.io/tags/spatial-data-mining/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://submagr.github.io/tags/spatial-data-mining/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
