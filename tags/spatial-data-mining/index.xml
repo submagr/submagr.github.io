@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Spatial Data Mining | Shubham&#39;s</title>
-    <link>https://submagr.github.io/tags/spatial-data-mining/</link>
-      <atom:link href="https://submagr.github.io/tags/spatial-data-mining/index.xml" rel="self" type="application/rss+xml" />
+    <title>Spatial Data Mining | Shubham Agrawal</title>
+    <link>/tags/spatial-data-mining/</link>
+      <atom:link href="/tags/spatial-data-mining/index.xml" rel="self" type="application/rss+xml" />
     <description>Spatial Data Mining</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 07 Nov 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://submagr.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Spatial Data Mining</title>
-      <link>https://submagr.github.io/tags/spatial-data-mining/</link>
+      <link>/tags/spatial-data-mining/</link>
     </image>
     
     <item>
       <title>Smart Geo-fencing with Location Sensitive Product Affinity</title>
-      <link>https://submagr.github.io/publication/smart-geofences/</link>
+      <link>/publication/smart-geofence/</link>
       <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>https://submagr.github.io/publication/smart-geofences/</guid>
+      <guid>/publication/smart-geofence/</guid>
       <description></description>
     </item>
     

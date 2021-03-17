@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gaurav S. Sukhatme | Shubham Agrawal</title>
+    <link>/authors/gaurav-s.-sukhatme/</link>
+      <atom:link href="/authors/gaurav-s.-sukhatme/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gaurav S. Sukhatme</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Gaurav S. Sukhatme</title>
+      <link>/authors/gaurav-s.-sukhatme/</link>
+    </image>
+    
+    <item>
+      <title>Automatic Differentiation and Continuous Sensitivity Analysis of Rigid Body Dynamics</title>
+      <link>/publication/ids/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/ids/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

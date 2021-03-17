@@ -1,9 +1,9 @@
 {
-  "name": "Shubham&#39;s",
-  "short_name": "Shubham&#39;s",
+  "name": "Shubham Agrawal",
+  "short_name": "Shubham Agrawal",
   "lang": "en-us",
-  "theme_color": "rgb(251, 191, 183)",
-  "background_color": "rgb(251, 191, 183)",
+  "theme_color": "#2962ff",
+  "background_color": "#2962ff",
   "icons": [{
     "src": "img/icon-192.png",
     "sizes": "192x192",

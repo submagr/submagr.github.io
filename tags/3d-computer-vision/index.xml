@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3D-Computer-Vision | Shubham Agrawal</title>
+    <link>/tags/3d-computer-vision/</link>
+      <atom:link href="/tags/3d-computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <description>3D-Computer-Vision</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>3D-Computer-Vision</title>
+      <link>/tags/3d-computer-vision/</link>
+    </image>
+    
+    <item>
+      <title>AdaGrasp: Learning an Adaptive Gripper-Aware Grasping Policy</title>
+      <link>/publication/adagrasp/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/adagrasp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fit2Form: 3D Generative Model for Robot Gripper Form Design</title>
+      <link>/publication/fit2form/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/fit2form/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

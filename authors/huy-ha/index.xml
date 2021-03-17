@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Huy Ha* | Shubham Agrawal</title>
+    <link>/authors/huy-ha/</link>
+      <atom:link href="/authors/huy-ha/index.xml" rel="self" type="application/rss+xml" />
+    <description>Huy Ha*</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Huy Ha*</title>
+      <link>/authors/huy-ha/</link>
+    </image>
+    
+    <item>
+      <title>Fit2Form: 3D Generative Model for Robot Gripper Form Design</title>
+      <link>/publication/fit2form/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/fit2form/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

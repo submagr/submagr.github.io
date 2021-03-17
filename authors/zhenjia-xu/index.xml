@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhenjia Xu | Shubham Agrawal</title>
+    <link>/authors/zhenjia-xu/</link>
+      <atom:link href="/authors/zhenjia-xu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhenjia Xu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Zhenjia Xu</title>
+      <link>/authors/zhenjia-xu/</link>
+    </image>
+    
+    <item>
+      <title>AdaGrasp: Learning an Adaptive Gripper-Aware Grasping Policy</title>
+      <link>/publication/adagrasp/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/adagrasp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
