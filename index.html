@@ -195,6 +195,58 @@
                 </td>
               </tr>
 
+              <!-- ================ Shell-Grasp ================ -->
+              <tr onmouseout="shellgrasp_stop()" onmouseover="shellgrasp_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='shellgrasp_video'>
+                      <video width=100% muted autoplay loop>
+                        <source src="images/shellgrasp/teaser.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <img src='images/shellgrasp/teaser.png' width="100%" id="shellgrasp_image">
+                  </div>
+                  <script type="text/javascript">
+                    function shellgrasp_start() {
+                      document.getElementById('shellgrasp_video').style.visibility = "visible";
+                      document.getElementById('shellgrasp_image').style.visibility = "hidden";
+                    }
+
+                    function shellgrasp_stop() {
+                      document.getElementById('shellgrasp_video').style.visibility = "hidden";
+                      document.getElementById('shellgrasp_image').style.visibility = "visible";
+                    }
+                    shellgrasp_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/pdf/2109.06837.pdf">
+                    <papertitle>
+                      Simultaneous Object Reconstruction and Grasp Prediction using a Camera-centric
+                      Object Shell Representation
+                    </papertitle>
+                  </a>
+                  <br>
+                  <a href="https://www.linkedin.com/in/nikhilcd">Nikhil Chavan-Dafle</a>,
+                  <a href="https://www.linkedin.com/in/sergiy-popovych">Sergiy Popovych</a>,
+                  <strong>Shubham Agrawal</strong>,
+                  <a href="https://scholar.google.com/citations?user=J0l7wWwAAAAJ&hl=en">Daniel D. Lee</a>,
+                  <a href="https://www-users.cse.umn.edu/~isler/">Volkan Isler</a>
+                  <br>
+                  <em>IROS, 2022</em>
+                  <br>
+                  <a href="https://arxiv.org/abs/2109.06837">arXiv</a>
+                  <p></p>
+                  <p>
+                    We present a new approach to simultaneously reconstruct a mesh and a dense
+                    grasp quality map of an object from a depth image. At the core of our approach
+                    is a novel cameracentric object representation called the “object shell” which
+                    is composed of an observed “entry image” and a predicted “exit image”.
+                  </p>
+                </td>
+              </tr>
+
               <tr onmouseout="seat_stop()" onmouseover="seat_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
