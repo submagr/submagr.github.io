@@ -83,6 +83,53 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              <tr onmouseout="scenegrasp_stop()" onmouseover="scenegrasp_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='scenegrasp_video'>
+                      <video width=100% muted autoplay loop>
+                        <source src="images/scenegrasp/teaser.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <img src='images/scenegrasp/teaser.png' width="100%" id="scenegrasp_image">
+                  </div>
+                  <script type="text/javascript">
+                    function scenegrasp_start() {
+                      document.getElementById('scenegrasp_video').style.visibility = "visible";
+                      document.getElementById('scenegrasp_image').style.visibility = "hidden";
+                    }
+
+                    function scenegrasp_stop() {
+                      document.getElementById('scenegrasp_video').style.visibility = "hidden";
+                      document.getElementById('scenegrasp_image').style.visibility = "visible";
+                    }
+                    scenegrasp_stop()
+                  </script>
+                </td>
+
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://scenegrasp.cs.columbia.edu/">
+                    <papertitle>
+                      Real-time Simultaneous Multi-Object 3D Shape Reconstruction, 6DoF Pose
+                      Estimation and Dense Grasp Prediction
+                    </papertitle>
+                  </a>
+                  <br>
+                  <strong>Shubham Agrawal</strong>,
+                  <a href="https://www.linkedin.com/in/nikhilcd">Nikhil Chavan-Dafle</a>,
+                  <a href="https://www.linkedin.com/in/isaac-kasahara">Isaac Kasahara</a>,
+                  <a href="https://ksengin.github.io/">Selim Engin</a>,
+                  <a href="https://sites.google.com/view/jinwookhuh/">Jinwook Huh</a>,<br>
+                  <a href="https://www-users.cse.umn.edu/~isler/">Volkan Isler</a>
+                  <br>
+                  <em>IROS</em>, 2023
+                  <br>
+                  <a href="https://arxiv.org/abs/2305.09510">arXiv</a>
+                  <p></p>
+                  <p></p>
+                </td>
+              </tr>
 
               <tr onmouseout="seat_stop()" onmouseover="seat_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
@@ -114,7 +161,7 @@
                     </papertitle>
                   </a>
                   <br>
-                  <strong>Shubham Agrawal*</strong>
+                  <strong>Shubham Agrawal*</strong>,
                   <a href="https://www.columbia.edu/~yl4095/">Yulong Li*</a>,
                   <a href="https://www.linkedin.com/in/jen-shuo-liu-820945149/">Jen-Shuo Liu</a>,
                   <a href="http://www.cs.columbia.edu/~feiner/">Steven K. Feiner</a>,
@@ -172,7 +219,7 @@
                   <br>
                   <a href="https://zhenjiaxu.com/">Zhenjia Xu</a>,
                   <a href="https://www.linkedin.com/in/beichun-qi/">Beichun Qi</a>,
-                  <strong>Shubham Agrawal</strong>
+                  <strong>Shubham Agrawal</strong>,
                   <a href="https://www.cs.columbia.edu/~shurans/">Shuran Song</a>
                   <br>
                   <em>ICRA</em>, 2021
@@ -220,7 +267,7 @@
                     </papertitle>
                   </a>
                   <br>
-                  <strong>Shubham Agrawal*</strong>
+                  <strong>Shubham Agrawal*</strong>,
                   <a href="https://www.cs.columbia.edu/~huy/">Huy Ha*</a>,
                   <a href="https://www.cs.columbia.edu/~shurans/">Shuran Song</a>
                   <br>
