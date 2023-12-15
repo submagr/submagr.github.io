@@ -99,26 +99,13 @@
               <tr onmouseout="scenegrasp_stop()" onmouseover="scenegrasp_start()">
                 <td style="padding:20px;width:40%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id='scenegrasp_video'>
+                    <div class="two" >
                       <video width=100% muted autoplay loop>
                         <source src="./images/scenegrasp/teaser.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                       </video>
                     </div>
-                    <img src='./images/scenegrasp/teaser.png' width="100%" id="scenegrasp_image">
                   </div>
-                  <script type="text/javascript">
-                    function scenegrasp_start() {
-                      document.getElementById('scenegrasp_video').style.visibility = "visible";
-                      document.getElementById('scenegrasp_image').style.visibility = "hidden";
-                    }
-
-                    function scenegrasp_stop() {
-                      document.getElementById('scenegrasp_video').style.visibility = "hidden";
-                      document.getElementById('scenegrasp_image').style.visibility = "visible";
-                    }
-                    scenegrasp_stop()
-                  </script>
                 </td>
 
                 <td style="padding:20px;width:60%;vertical-align:middle">
@@ -160,25 +147,8 @@
                   <div class="one">
                     <div class="two" id='ric_video'>
                       <img src='./images/ric/teaser.gif' width="100%" id="ric_video">
-                      <!-- <video width=100% muted autoplay loop>
-                        <source src="./images/scenegrasp/teaser.gif" type="video/mp4">
-                        Your browser does not support the video tag.
-                      </video> -->
                     </div>
-                    <img src='./images/ric/teaser.png' width="100%" id="ric_image">
                   </div>
-                  <script type="text/javascript">
-                    function ric_start() {
-                      document.getElementById('ric_video').style.visibility = "visible";
-                      document.getElementById('ric_image').style.visibility = "hidden";
-                    }
-
-                    function ric_stop() {
-                      document.getElementById('ric_video').style.visibility = "hidden";
-                      document.getElementById('ric_image').style.visibility = "visible";
-                    }
-                    ric_stop()
-                  </script>
                 </td>
 
                 <td style="padding:20px;width:60%;vertical-align:middle">
@@ -225,20 +195,7 @@
                         Your browser does not support the video tag.
                       </video>
                     </div>
-                    <img src='./images/shellgrasp/teaser.png' width="100%" id="shellgrasp_image">
                   </div>
-                  <script type="text/javascript">
-                    function shellgrasp_start() {
-                      document.getElementById('shellgrasp_video').style.visibility = "visible";
-                      document.getElementById('shellgrasp_image').style.visibility = "hidden";
-                    }
-
-                    function shellgrasp_stop() {
-                      document.getElementById('shellgrasp_video').style.visibility = "hidden";
-                      document.getElementById('shellgrasp_image').style.visibility = "visible";
-                    }
-                    shellgrasp_stop()
-                  </script>
                 </td>
                 <td style="padding:20px;width:60%;vertical-align:middle">
                   <a href="https://arxiv.org/pdf/2109.06837.pdf">
@@ -271,6 +228,7 @@
                 </td>
               </tr>
 
+              <!-- ================ SEaT ================ -->
               <tr onmouseout="seat_stop()" onmouseover="seat_start()">
                 <td style="padding:20px;width:40%;vertical-align:middle">
                   <div class="one">
@@ -280,19 +238,7 @@
                         Your browser does not support the video tag.
                       </video>
                     </div>
-                    <img src='./images/seat/teaser.png' width="100%" id="seat_image">
                   </div>
-                  <script type="text/javascript">
-                    function seat_start() {
-                      document.getElementById('seat_video').style.visibility = "visible";
-                      document.getElementById('seat_image').style.visibility = "hidden";
-                    }
-
-                    function seat_stop() {
-                      document.getElementById('seat_video').style.visibility = "hidden";
-                      document.getElementById('seat_image').style.visibility = "visible";
-                    }
-                    seat_stop()</script>
                 </td>
 
                 <td style="padding:20px;width:60%;vertical-align:middle">
@@ -326,6 +272,7 @@
                 </td>
               </tr>
 
+              <!-- ================ Adagrasp ================ -->
               <tr onmouseout="adagrasp_stop()" onmouseover="adagrasp_start()">
                 <td style="padding:20px;width:40%;vertical-align:middle">
                   <div class="one">
@@ -335,20 +282,7 @@
                         Your browser does not support the video tag.
                       </video>
                     </div>
-                    <img src='./images/adagrasp/teaser.jpg' width="100%" id='adagrasp_image'>
                   </div>
-                  <script type="text/javascript">
-                    function adagrasp_start() {
-                      document.getElementById('adagrasp_image').style.visibility = "hidden";
-                      document.getElementById('adagrasp_video').style.visibility = "visible";
-                    }
-
-                    function adagrasp_stop() {
-                      document.getElementById('adagrasp_image').style.visibility = "visible";
-                      document.getElementById('adagrasp_video').style.visibility = "hidden";
-                    }
-                    adagrasp_stop()
-                  </script>
                 </td>
 
                 <td style="padding:20px;width:60%;vertical-align:middle">
@@ -378,6 +312,7 @@
                 </td>
               </tr>
 
+              <!-- ================ Fit2Form ================ -->
               <tr onmouseout="fit2form_stop()" onmouseover="fit2form_start()">
                 <td style="padding:20px;width:40%;vertical-align:middle">
                   <div class="one">
@@ -387,18 +322,7 @@
                         Your browser does not support the video tag.
                       </video>
                     </div>
-                    <img src='./images/fit2form/teaser.png' width="100%">
                   </div>
-                  <script type="text/javascript">
-                    function fit2form_start() {
-                      document.getElementById('fit2form_image').style.opacity = "1";
-                    }
-
-                    function fit2form_stop() {
-                      document.getElementById('fit2form_image').style.opacity = "0";
-                    }
-                    fit2form_stop()
-                  </script>
                 </td>
 
                 <td style="padding:20px;width:60%;vertical-align:middle">
