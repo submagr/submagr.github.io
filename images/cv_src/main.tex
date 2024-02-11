@@ -1,0 +1,387 @@
+%-------------------------
+% Resume in Latex
+% Author : Shubham Agrawal
+% Adapted from: Amlaan Bhoi
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt,hidelinks]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex, hidelinks]{hyperref}
+% [we don't need this] \usepackage[allbordercolors={0 0 0}, hidelinks]{hyperref}
+
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!15!black}
+}
+
+\usepackage[dvipsnames]{xcolor}
+
+
+\usepackage{fancyhdr}
+\usepackage[charter]{mathdesign} % Bitstream Charter
+\usepackage{textcomp}
+\usepackage{tikz}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.50in}
+\addtolength{\evensidemargin}{-0.50in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.2in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+    \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{CadetBlue}\titlerule \vspace{-5pt}]
+
+% \renewcommand{\familydefault}{\sfdefault}
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+    \item\small{
+        \textbf{#1}{: #2 \vspace{-2pt}}
+    }
+}
+
+\newcommand{\resumeItemPlain}[1]{
+    \item{
+        \small
+        #1 \vspace{-2pt}
+    }
+}
+
+\newcommand{\resumeItemNoBullet}[2]{
+    \item[]\small{
+        \hspace{-9pt}\textbf{#1}{: #2 \vspace{-6pt}}
+    }
+}
+\newcommand{\resumeItemNoBulletPlain}[2]{
+    \item[]\small{
+        \hspace{-9pt}#1{: #2 \vspace{-6pt}}
+    }
+}
+\newcommand{\resumeItemParagraph}[1]{
+    \item[]\small{
+        \hspace{-9pt}#1
+    }
+}
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-1pt}\item[]
+    \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
+        \hspace{-10pt}\textbf{#1} & #2 \\
+        \hspace{-10pt}\textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeSubheadingSameCompany}[2]{
+    \vspace{-8pt}\item[]
+    \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
+        \hspace{-10pt}\textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+    \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+    \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+% custom commands
+\newcommand{\shorterSection}[1]{\vspace{-10pt}\section{#1}}
+
+\newcommand{\ExternalLink}{%
+    \tikz[x=1.2ex, y=1.2ex, baseline=-0.05ex]{% 
+        \begin{scope}[x=1ex, y=1ex]
+            \clip (-0.1,-0.1) 
+            --++ (-0, 1.2) 
+            --++ (0.6, 0) 
+            --++ (0, -0.6) 
+            --++ (0.6, 0) 
+            --++ (0, -1);
+            \path[draw, 
+            line width = 0.5, 
+            rounded corners=0.5] 
+            (0,0) rectangle (1,1);
+        \end{scope}
+        \path[draw, line width = 0.5] (0.5, 0.5) 
+        -- (1, 1);
+        \path[draw, line width = 0.5] (0.6, 1) 
+        -- (1, 1) -- (1, 0.6);
+    }
+}
+
+\begin{document}
+    
+    
+    %----------HEADING-----------------
+    \begin{center}
+        \small \textbf{\huge Shubham Agrawal} \\ \vspace{5pt} \href{mailto:agshubh191@gmail.com}{agshubh191@gmail.com \ExternalLink} $\vert$
+        213-446-5430 $\vert$
+        Website: \href{https://www.agshubh.com}{agshubh.com \ExternalLink} $\vert$
+        New York City, NY
+    \end{center}
+    
+    
+    %-----------EDUCATION-----------------
+    \shorterSection{Education}
+    \resumeSubHeadingListStart
+    \resumeSubheading
+    {Columbia University in the City of New York}{New York, NY}
+    {Master of Science in Computer Science; Advanced Masters Research Specialization in Vision and Robotics; GPA: 3.8/4.0}{Aug 2019 - May 2021}
+    % \resumeSubheading
+    % {University of Southern California}{Los Angeles, CA}
+    % {Master of Science in Computer Science (Transferred to Columbia University); CGPA: 3.65/4.0}{Jan 2019 - Aug 2019}
+    \resumeSubheading
+    {Indian Institute of Technology Kanpur}{Kanpur, India}
+    {Bachelor of Technology in Computer Science; GPA: 8.7/10.0}{Jul 2013 - Apr 2017}
+    
+    % \resumeItemNoBulletPlain{Relevant Coursework}{Recent Advances in Computer Vision, Bayesian Machine Learning, Artificial Intelligence, Machine Learning Tools, Optimizations Techniques, Natural Language Processing, Advanced Algorithms and Data Structures, Operating Systems}
+    \resumeSubHeadingListEnd
+    %-----------EXPERIENCE-----------------
+    \shorterSection{Experience}
+    
+    \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Samsung Research America}{New York, NY, USA}
+    {Senior Researcher, Machine Learning}{March 2023 - Present}
+    \resumeSubheadingSameCompany
+    {Engineer, Machine Learning Research}{Jun 2021 - March 2023}
+    \resumeItemPlain{
+        \underline{\smash{3D computer vision research}}: Simultaneous scene understanding and grasp estimation, leveraging foundational visual language models for generalizable scene reconstruction. The research led to \underline{\smash{multiple publications and patents}}
+        (
+            \href{https://samsunglabs.github.io/SceneGrasp-project-page/}{SceneGrasp \ExternalLink},
+            \href{https://samsunglabs.github.io/RIC-project-page/}{RIC \ExternalLink}
+            % \href{https://arxiv.org/abs/2109.06837}{arXiv \ExternalLink},
+            % \href{https://arxiv.org/abs/2110.04450}{arXiv \ExternalLink}
+        ).
+        % Relevant papers: Real-time simultaneous multi-object 3D Shape Reconstruction, 6DoF Pose Estimation, and Dense Grasp Prediction 
+        % RIC: Rotate-Inpaint-Complete for Generalizable Scene Reconstruciton ()
+    }
+    \resumeItemPlain{Lidar to floorplan: Generated a visually pleasing rectilinear floor plan from a noisy lidar-scan image. 
+    % Key technologies: Transformer-based room layout detection, semi-supervised Learning, sim-to-real transfer using CycleGAN, and deployment of technology on android application 
+    (\href{https://youtube.com/shorts/Qo3_Hc4RI5c}{video \ExternalLink}). The research technology is now in the \underline{\smash{production phase for the Samsung Robot Vaccum Cleaner}}.
+    }
+    \resumeItemPlain{
+        Autonomous table clearing and dishwasher loading - Key components: (a) in-house 6DoF perception data labeling tool (\href{https://www.youtube.com/watch?v=wNX_vwQbM0o&list=PLwJf7gguZofuoMPQrfRpoHTh-cKIuxdcd&index=38}{video \ExternalLink}), (b) instance segmentation, (c) 6DoF pose estimation, (d) glass detection, (e) stereo depth prediction, and (f) sensor fusion.
+    }
+    
+
+
+    \resumeSubheading
+    {Tesla Inc}{Palo Alto, USA (remote)}
+    {Autopilot Intern}{Jun 2020 - Aug 2020}
+    \resumeItemPlain{
+        (Non Disclosure Agreement)Identify and associate the same objects visible in multiple cameras to create object tracks across time. % Wrote verification scripts for object tracks outlier rejection component
+    }
+    
+    \resumeSubheading
+    {Adobe Inc}{Noida, India}
+    {Member of Technical Staff (C++, JavaScript Software Developer)}{Jul 2017 - Jan 2019}
+    \resumeSubheadingSameCompany
+    {Research Intern (Machine Learning)}{May 2016 - Aug 2016}
+    \resumeItemPlain
+    {
+        Implemented CRUD operations for highlight/underline/sticky notes for \href{https://www.adobe.com/acrobat/hub/what-is-adobe-liquid-mode.html}{\underline{\smash{Adobe PDF Liquid mode}} \ExternalLink}.
+        % Formulated efficient algorithm for modeling an annotation\textquotesingle s position across multiple PDF views (with variable structure and content)
+        Shipped fixes for multiple critical security vulnerabilities (null pointer dereferencing, buffer overflow, JavaScript parameter tampering).
+        
+    }
+    % \vspace{5pt}
+    % \resumeItemPlain
+    % {
+    %     Created a novel end-to-end system for automated design of affinity (user's interest) based smart geo-fences for selective targeting.
+    %     % To unsheathe interest from sparse location tagged browsing data, the three-step user affinity modeling approach sequentially utilizes pair-wise product-product, user-user, and semantic location-location similarities.
+    %     % Users are segmented based on affinity using K-means clustering and CH-index. Final geofences are created by clustering nearby points using DBSCAN and calculating the boundary using $\alpha$-hull.
+    %     \href{https://patents.google.com/patent/US20180232767A1/}{US Patent US20180232767A1 \ExternalLink.} \href{https://dl.acm.org/citation.cfm?id=3140059}{ACM SIGSPATIAL$'$17 conference paper \ExternalLink}
+    % }
+    \resumeSubHeadingListEnd
+    
+    %-----------PROJECTS-----------------
+    \shorterSection{Projects and Publications}
+    \resumeSubHeadingListStart
+    \small
+    
+    
+    %  -------------- SceneGrasp---------
+    \item{
+        Real-time Simultaneous Multi-object 3D Shape Reconstruction, 6DoF Pose, and Dense Grasp Prediction
+        \hfill
+        \href{https://samsunglabs.github.io/SceneGrasp-project-page/}{Project page \ExternalLink},
+        \href{https://samsunglabs.github.io/SceneGrasp-project-page/static/videos/main-video.mp4}{Video \ExternalLink},
+        \href{https://github.com/SamsungLabs/SceneGrasp}{Code \ExternalLink}
+        \\
+        IROS 2023 | Patent pending | \underline{\smash{S. Agrawal}}, N. Dafle, I. Kasahara, S. Engin, J. Huh, V. Isler
+    }
+    
+    %  -------------- RIC ---------
+    \item{
+        RIC: Rotate-Inpaint-Complete for Generalizable Scene Reconstruction
+        \hfill
+        \href{https://samsunglabs.github.io/RIC-project-page/}{Project page \ExternalLink},
+        \href{https://samsunglabs.github.io/RIC-project-page/static/videos/main-video.mp4}{Video \ExternalLink}
+        \\
+        ICRA 2024 | Patent pending | I. Kasahara, \underline{\smash{S. Agrawal}}, S. Engin, N. Dafle, S. Song, V. Isler
+        \\
+        Recognized as a strategically important patent in the Generative AI domain by Samsung's IP team.
+    }
+
+    %  -------------- SEaT ---------
+    \item{
+        SEaT: Scene Editing as Teleoperation
+        \hfill
+        \href{https://seat.cs.columbia.edu/}{Project page \ExternalLink},
+        \href{https://www.youtube.com/watch?v=F69_2J68Thc&ab_channel=Robotics%26EmbodiedArtificialIntelligenceLab}{Video \ExternalLink},
+        \href{https://github.com/real-stanford/SEaT}{Code \ExternalLink}
+        \\
+        IROS 2022 | \underline{\smash{S. Agrawal}}$^{\ast}$, Y. Li$^{\ast}$, J. Liu, S. Feiner, S. Song ($^\ast$ equal contributions)
+    }
+
+    %  -------------- ShellGrasp ---------
+    \item{
+        Camera-centric Object Shell Representation for Simultaneous Object Reconstruction and Grasp Prediction
+        \hfill
+        \href{https://arxiv.org/abs/2109.06837}{ArXiv \ExternalLink},
+        \href{https://www.youtube.com/watch?v=zbADot4n9fc&feature=youtu.be&ab_channel=NikhilChavan-Dafle}{Video \ExternalLink}
+        \\
+        IROS 2022 | Patent pending | N. Dafle, S. Popovich, \underline{\smash{S. Agrawal}}, D. Lee, V. Isler 
+    }
+
+    %  -------------- Fit2Form ---------
+    \item{
+        Fit2Form - 3D Generative Model for Robot Gripper Form Design
+        \hfill
+        \href{https://fit2form.cs.columbia.edu/}{Project page \ExternalLink},
+        \href{https://www.youtube.com/watch?v=utKHP3qb1bg&ab_channel=Robotics%26EmbodiedArtificialIntelligenceLab}{Video \ExternalLink},
+        \href{https://github.com/real-stanford/fit2form}{Code \ExternalLink}
+        \\
+        CoRL 2021 | \underline{\smash{S. Agrawal}}$^{\ast}$, H. Ha$^{\ast}$, S. Song
+    }
+    
+    %  -------------- Adagrasp ---------
+    \item {
+        AdaGrasp: Learning an Adaptive Gripper-Aware Grasping Policy
+        \hfill  
+        \href{https://adagrasp.cs.columbia.edu/}{Project page \ExternalLink},
+        \href{https://www.youtube.com/watch?v=kknTYTbORfs&ab_channel=Robotics%26EmbodiedArtificialIntelligenceLab}{Video \ExternalLink},
+        \href{https://github.com/real-stanford/adagrasp}{Code \ExternalLink}
+        \\
+        ICRA 2021 | Z. Xu, B. Qi, \underline{\smash{S. Agrawal}}, S. Song
+    } 
+    
+    % \vspace{3pt}
+    \item{
+        Smart Geo-fencing with Location-Sensitive Product Affinity
+        \hfill
+        \href{https://patents.google.com/patent/US11049142B2/en}{Patent \ExternalLink}, \href{https://dl.acm.org/citation.cfm?id=3140059}{ArXiv \ExternalLink}
+        \\
+        SIGSPATIAL 2017 |
+        \href{https://patents.google.com/patent/US11049142B2/en}{Patent \ExternalLink} |
+        A. Garg, S. Agrawal, \underline{\smash{S. Agrawal}}, P. Bajaj, A. Kedia
+    }
+    
+    % \href{https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VbfC5GMAAAAJ&citation_for_view=VbfC5GMAAAAJ:u5HHmVD_uO8C}{Scholar \ExternalLink}.
+    % }
+    % \vspace{3pt}
+    % \resumeSubItem{[2021 US Patent] Smart geo-fencing using location-sensitive product affinity}{
+    % Ankur Garg, Sweta Agrawal, Shubham Agrawal, Payal Bajaj, Abhishek Kedia. \href{https://patents.google.com/patent/US11049142B2/en}{Patent \ExternalLink}
+    %  % \href{https://patents.google.com/patent/US20180232767A1/}{US Patent US20180232767A1 \ExternalLink.} 
+    %  \href{https://dl.acm.org/citation.cfm?id=3140059}{ACM SIGSPATIAL$'$17 paper \ExternalLink}
+    % }
+    % \vspace{3pt}
+    % \resumeSubItem {[2021 arXiv] Automatic differentiation and continuous sensitivity analysis of rigid body dynamics}
+    % {David Millard, Eric Heiden, Shubham Agrawal, Gaurav S Sukhatme. \href{https://arxiv.org/abs/2001.08539}{arXiv \ExternalLink}}
+
+    % Implemented Adjoint Method for getting fast differentials of integrated ODEs using C++ template metaprogramming. \href{https://arxiv.org/abs/2001.08539}{\textbf{arXiv} \ExternalLink.}}
+    % Worked on physics simulator that allows parameter estimation for nonlinear dynamical systems using automatic differentiation. 
+    % {Robotics Embedded Research Laboratory, University of Southern California}{Los Angeles, CA}
+    % {Student Research Assistant (Robotics Research and Web Development)}{May 2019 - Aug 2019}
+    %     % Implemented simulation visualizer web app using nodejs+gulp+browserify and MVC architecture pattern (without framework). The web app has interactive 3D simulations (Babylon.js), player progress bar, plots, logs, and multi-window support (golden-layout).
+    % }
+    % \vspace{3pt}
+    % \resumeSubItem{3D Style transfer}
+    % {from 2D images to 3D meshes for novel view synthesis. Using neural-mesh-renderer and deep-voxels representations, we optimize the original mesh by applying style loss to the generated images. \href{https://github.com/submagr/3dstyletransfer}{Code \ExternalLink},  \href{https://github.com/submagr/3dstyletransfer/blob/master/Final\%20Report.pdf}{Report \ExternalLink}.}
+    % \vspace{3pt}
+    % \resumeSubItem{Kaggle Diabetic Retinopathy Classification}
+    % {Several pre-processing steps (CLAHE, smoothing, blood vessels segmentation), EfficientNet-B2 and TTA gave an optimized kappa score of 0.895 and an overall standing 1311/2943 on leaderboard. \href{https://github.com/submagr/blindness-detection}{Code \ExternalLink.}}
+    % \vspace{3pt}
+    % \resumeSubItem{Porn Block}{Chrome extension for realtime identification and blurring of sensual images from webpages. Trained VGG-net on scrapped data using KerasJS. Wrote a proxy server to bypass CORS while generating the client-side image matrix. \href{https://github.com/PornBlock}{Code \ExternalLink.}
+    % }
+    % \resumeSubItem{Dense Captioning}{Analyzed the work \textit{DenseCap} by Andrej Karpathy et. al. by experimenting with the parameters and design choices of Fully Convolutional Localization Network on Visual Genome dataset. Improved mAP from 5.698 to 5.76 using trainable spatial suppression layer to discard test-time non-maximum suppression.
+    % }
+    
+    \resumeSubHeadingListEnd
+    
+    %-----------SKILLS-----------------
+    \vspace{2pt}
+    \shorterSection{Skills}
+    \resumeSubHeadingListStart
+    \small
+    \item{
+        \textbf{Languages | Libraries}{: C++, Python, Java, PyTorch, Spark, XGBoost, scikit-learn, ROS, Docker, SQL, GPU, Distributed Systems, GCP}
+    }
+    \vspace{-5pt}
+    \small
+    \item{
+         \textbf{Techniques}: Single/Multi-view geometry, Pose estimation, SLAM, Visual Inertial Odometry, Sensor Fusion, GAN/VAE/Diffusion models 
+    }
+    \vspace{-5pt}
+    \item{
+        \textbf{Hardware Experience}{: Robots (UR5, Panda, Kinova, Ridgeback), Grippers (WSG50, RG2, BHand), RGB-D Cameras, Raspberry Pi}
+    }
+    \resumeSubHeadingListEnd
+    
+    
+    %-----------Addtional Experience & Achievements-----------------
+    \shorterSection{Achievements \& Extracurricular}
+    \resumeSubHeadingListStart
+    \small
+ %    \item {\href{https://patents.google.com/patent/US20180232767A1/}{\textbf{US Patent US20180232767A1 \ExternalLink}} Smart Geo-fencing with Location Sensitive Product Affinity}
+	% \vspace{-5pt}
+    \item {Course Assistant Fellowship, Columbia University: awarded for stellar academic performance and outstanding work as a TA}
+    \vspace{-5pt}
+    \item {Co-founded \underline{\smash{\href{https://play.google.com/store/apps/details?id=com.infinitetoefl.app}{TOEFL Infinite \ExternalLink}}}, an android application for TOEFL and GRE exam preparation with 150K downloads on Google Play}
+    % \vspace{-5pt}
+    % \item {Selected for Advanced Master Research Specialization at Columbia University offering one fully-funded semester of research}
+    \vspace{-5pt}
+    \item{\underline{\smash{Ranked 191 (99.8 percentile)}} among 150K candidates in IIT-JEE Advanced 2013 - entrance exam for premium engineering colleges in India}
+    \vspace{-5pt}
+    \item{Teaching: \href{https://sites.google.com/view/coms4733-fall2020/home?pli=1&authuser=1}{Computational Aspects of Robotics (\underline{\smash{Head TA}}) \ExternalLink}, \href{https://www.cs.columbia.edu/~amueller/comsw4995s20/}{Applied Machine Learning \ExternalLink}, \href{http://www.cs.columbia.edu/~gravano/cs6111/}{Advanced Database Systems \ExternalLink}}
+    \vspace{-5pt}
+    \item{Research assistantships:  \href{https://www.cs.columbia.edu/~shurans/lab.html}{Shuran Song Columbia University \ExternalLink} (Sept 2019 - Apr 2021), \href{https://viterbi.usc.edu/directory/faculty/Sukhatme/Gaurav}{Gaurav Sukhatame USC \ExternalLink} (May 2019 - Aug 2019)
+    
+    }
+    % \vspace{-5pt}
+    % \item{Received \textit{Academic Excellence Award} for excellent academic performance during 2013-14 curriculum at IIT Kanpur}
+    % \vspace{-5pt}
+    % \item{Received \textit{Best Rookie Team Award}, and \textit{Design Finalists}, BAJA Student India 2015 (an inter-collegiate all-terrain vehicle design competition)}
+    \vspace{-5pt}
+    \item {CS Department Senator, University of Southern California}
+    \vspace{-5pt}
+    \item {Ran TCS New York City Marathon 2023. Love music and playing flute in my free time.}
+    \resumeSubHeadingListEnd
+    %-------------------------------------------
+\end{document}
