@@ -96,6 +96,50 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              <!-- ================ RIC ================ -->
+              <tr onmouseout="ric_stop()" onmouseover="ric_start()">
+                <td style="padding:20px;width:40%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='ric_video'>
+                      <img src='./images/ric/teaser.gif' width="100%" id="ric_video">
+                    </div>
+                  </div>
+                </td>
+
+                <td style="padding:20px;width:60%;vertical-align:middle">
+                  <a href="https://samsunglabs.github.io/RIC-project-page/">
+                    <papertitle>
+                      RIC: Rotate-Inpaint-Complete for Generalizable Scene Reconstruction
+                    </papertitle>
+                  </a>
+                  <br>
+                  <a href="https://www.linkedin.com/in/isaac-kasahara">Isaac Kasahara</a>,
+                  <strong>Shubham Agrawal</strong>,
+                  <a href="https://ksengin.github.io/">Selim Engin</a>,
+                  <a href="https://www.linkedin.com/in/nikhilcd">Nikhil Chavan-Dafle</a>,
+                  <a href="https://shurans.github.io/">Shuran Song</a>
+                  <a href="https://www-users.cse.umn.edu/~isler/">Volkan Isler</a>
+                  <br>
+                  <em>ICRA, 2024</em>
+                  <br>
+                  <a href="https://samsunglabs.github.io/RIC-project-page/">project page</a>
+                  /
+                  <a href="https://arxiv.org/abs/2307.11932">arXiv</a>
+                  /
+                  <a href="https://github.com/SamsungLabs/RIC">code</a>
+                  <p></p>
+                  <p>
+                    We present a method for scene reconstruction by structurally breaking the
+                    problem into two steps: rendering novel views via inpainting and 2D to 3D scene
+                    lifting. Specifically, we leverage the generalization capability of large visual
+                    language models (Dalle-2) to inpaint the missing areas of scene color images
+                    rendered from different views. Next, we lift these inpainted images to 3D by
+                    predicting normals of the inpainted image and solving for the missing depth
+                    values.
+                  </p>
+                </td>
+              </tr>
+
               <!-- ================ SceneGrasp ================ -->
               <tr onmouseout="scenegrasp_stop()" onmouseover="scenegrasp_start()">
                 <td style="padding:20px;width:40%;vertical-align:middle">
@@ -138,50 +182,6 @@
                     on those objects simultaneously. The main advantage of our
                     method is its speed as it avoids sequential perception and grasp
                     planning steps
-                  </p>
-                </td>
-              </tr>
-
-              <!-- ================ RIC ================ -->
-              <tr onmouseout="ric_stop()" onmouseover="ric_start()">
-                <td style="padding:20px;width:40%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='ric_video'>
-                      <img src='./images/ric/teaser.gif' width="100%" id="ric_video">
-                    </div>
-                  </div>
-                </td>
-
-                <td style="padding:20px;width:60%;vertical-align:middle">
-                  <a href="https://samsunglabs.github.io/RIC-project-page/">
-                    <papertitle>
-                      RIC: Rotate-Inpaint-Complete for Generalizable Scene Reconstruction
-                    </papertitle>
-                  </a>
-                  <br>
-                  <a href="https://www.linkedin.com/in/isaac-kasahara">Isaac Kasahara</a>,
-                  <strong>Shubham Agrawal</strong>,
-                  <a href="https://ksengin.github.io/">Selim Engin</a>,
-                  <a href="https://www.linkedin.com/in/nikhilcd">Nikhil Chavan-Dafle</a>,
-                  <a href="https://shurans.github.io/">Shuran Song</a>
-                  <a href="https://www-users.cse.umn.edu/~isler/">Volkan Isler</a>
-                  <br>
-                  <em>preprint</em>
-                  <br>
-                  <a href="https://samsunglabs.github.io/RIC-project-page/">project page</a>
-                  /
-                  <a href="https://arxiv.org/abs/2307.11932">arXiv</a>
-                  /
-                  <a href="https://github.com/SamsungLabs/RIC">code</a>
-                  <p></p>
-                  <p>
-                    We present a method for scene reconstruction by structurally breaking the
-                    problem into two steps: rendering novel views via inpainting and 2D to 3D scene
-                    lifting. Specifically, we leverage the generalization capability of large visual
-                    language models (Dalle-2) to inpaint the missing areas of scene color images
-                    rendered from different views. Next, we lift these inpainted images to 3D by
-                    predicting normals of the inpainted image and solving for the missing depth
-                    values.
                   </p>
                 </td>
               </tr>
